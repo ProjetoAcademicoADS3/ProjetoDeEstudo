@@ -1,1 +1,1 @@
-Projeto de estudo
+Projeto para estudo e consultas acadêmicas
