@@ -34,7 +34,7 @@ public class Continente implements Comparable<Continente> {
             throw new Exception("Falta dados na String");
         }
         id = Integer.parseInt(vetorString[0]);
-        datacad = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss").parse(vetorString[1]);
+        datacad = new SimpleDateFormat("dd/MM/yyyy - HH:mm:ss").parse(vetorString[1]);
         codContinente = Integer.parseInt(vetorString[2]);
         nomeContinente = vetorString[3];
         situacao = EnumSituacao.values() [Integer.parseInt(vetorString[4])];
